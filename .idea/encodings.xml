@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/famer-clusterPostProcessing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/famer-clustering" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/famer-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/famer-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/famer-graphGenerator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/famer-inputConfig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/famer-linking" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/famer-preprocessing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/famer-preprocessing" charset="UTF-8" />
+  </component>
+</project>

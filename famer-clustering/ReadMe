@@ -1,0 +1,3 @@
+
+*** Each vertex must have "type" property. In all graphs generated in graphGeneratorModule, all vertices have type property.
+*** Before calling any serial or parallel org.gradoop.famer.clustering.clustering algorithm, "ModifyGraphforClustering" must be called as it was done in AdvancedClusteringTest.java

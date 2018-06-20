@@ -1,0 +1,19 @@
+change absolute path to the location of your project
+
+mvn clean package
+
+go to terminal to your project folder example
+
+start Flink cluster
+/Users/ericpeukert/leipzigOwncloud/pprl/WS/pprl-on-flink/flink-1.1.4/bin/start-local.sh
+
+open webfrontend to check if cluster is running
+http://localhost:8081/#/overview
+
+run job
+/Users/ericpeukert/leipzigOwncloud/pprl/WS/pprl-on-flink/flink-1.1.4/bin/flink run -c de.scads.graflink.ClusteringExample2 target/example-1.0-SNAPSHOT.jar
+
+or
+
+/Users/ericpeukert/leipzigOwncloud/pprl/WS/pprl-on-flink/flink-1.1.4/bin/flink run -c org.gradoop.famer.example.MatchingExample target/example-1.0-SNAPSHOT.jar
+

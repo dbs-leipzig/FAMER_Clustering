@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.gradoop:gradoop-flink:test-jar:tests:0.3.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/gradoop/gradoop-flink/0.3.2/gradoop-flink-0.3.2-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/gradoop/gradoop-flink/0.3.2/gradoop-flink-0.3.2-test-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/gradoop/gradoop-flink/0.3.2/gradoop-flink-0.3.2-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

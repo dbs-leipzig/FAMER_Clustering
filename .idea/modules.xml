@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FAMER_Clustering.iml" filepath="$PROJECT_DIR$/FAMER_Clustering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/famer-clusterPostProcessing/famer-clusterPostProcessing.iml" filepath="$PROJECT_DIR$/famer-clusterPostProcessing/famer-clusterPostProcessing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/famer-clustering/famer-clustering.iml" filepath="$PROJECT_DIR$/famer-clustering/famer-clustering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/famer-common/famer-common.iml" filepath="$PROJECT_DIR$/famer-common/famer-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/famer-example/famer-example.iml" filepath="$PROJECT_DIR$/famer-example/famer-example.iml" />
+    </modules>
+  </component>
+</project>
