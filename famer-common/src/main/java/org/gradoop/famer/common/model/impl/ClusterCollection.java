@@ -1,23 +1,37 @@
+/*
+ * Copyright © 2016 - 2018 Leipzig University (Database Research Group)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
 package org.gradoop.famer.common.model.impl;
 
 import org.apache.flink.api.common.functions.GroupReduceFunction;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
 import org.apache.flink.api.java.DataSet;
-import org.apache.flink.api.java.ExecutionEnvironment;
-import org.apache.flink.api.java.operators.JoinOperator;
-import org.apache.flink.api.java.operators.MapOperator;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.util.Collector;
 import org.gradoop.common.model.impl.pojo.Edge;
 import org.gradoop.common.model.impl.pojo.Vertex;
-import org.gradoop.famer.common.functions.getF0Tuple2;
-import org.gradoop.famer.common.functions.link2link_id;
-import org.gradoop.famer.common.functions.vertex2vertex_clusterId;
-import org.gradoop.famer.common.functions.vertex2vertex_gradoopId;
+import org.gradoop.famer.common.functions.GetF0Tuple2;
+import org.gradoop.famer.common.functions.Link2link_id;
+import org.gradoop.famer.common.functions.Vertex2vertex_clusterId;
+import org.gradoop.famer.common.functions.Vertex2vertex_gradoopId;
 import org.gradoop.famer.common.model.impl.functions.*;
-import org.gradoop.famer.common.util.link2link_srcVertex_trgtVertex;
+import org.gradoop.famer.common.util.Link2link_srcVertex_trgtVertex;
 import org.gradoop.flink.model.api.epgm.LogicalGraph;
 import org.gradoop.flink.util.GradoopFlinkConfig;
 
@@ -54,17 +68,17 @@ public class ClusterCollection {
     public DataSet<Cluster> fromLogicalGraph (DataSet<Vertex> inputVertices, DataSet<Edge> inputEdges)  {
 
         // cluster links
-        DataSet<Tuple3<Edge, Vertex, Vertex>> edge_srcVertex_trgtVertex = new link2link_srcVertex_trgtVertex(inputVertices, inputEdges).execute();
-        DataSet<Tuple3<Edge, String, Boolean>> edge_srcClusterId_trgtClusterId = edge_srcVertex_trgtVertex.flatMap(new classifyLinks());
+        DataSet<Tuple3<Edge, Vertex, Vertex>> edge_srcVertex_trgtVertex = new Link2link_srcVertex_trgtVertex(inputVertices, inputEdges).execute();
+        DataSet<Tuple3<Edge, String, Boolean>> edge_srcClusterId_trgtClusterId = edge_srcVertex_trgtVertex.flatMap(new ClassifyLinks());
 
-        DataSet<Tuple2<Collection<Tuple2<Edge, Boolean>>, String>> links = edge_srcClusterId_trgtClusterId.groupBy(1).reduceGroup(new links2Collections());
+        DataSet<Tuple2<Collection<Tuple2<Edge, Boolean>>, String>> links = edge_srcClusterId_trgtClusterId.groupBy(1).reduceGroup(new Links2Collections());
 
         // cluster vertices
         DataSet<Tuple2<Collection<Vertex>, String>> vertices = inputVertices
-                .flatMap(new vertex2vertex_clusterId(true)).groupBy(1).reduceGroup(new vertices2Collections());
+                .flatMap(new Vertex2vertex_clusterId(true)).groupBy(1).reduceGroup(new Vertices2Collections());
 
         // creating clusters
-        DataSet<Cluster> output = vertices.leftOuterJoin(links).where(1).equalTo(1).with(new makeClusterJoin());
+        DataSet<Cluster> output = vertices.leftOuterJoin(links).where(1).equalTo(1).with(new MakeClusterJoin());
         return output;
     }
 
@@ -72,12 +86,12 @@ public class ClusterCollection {
         return fromLogicalGraph (clusteredLogicalGraph.getVertices(), clusteredLogicalGraph.getEdges());
     }
     public LogicalGraph toLogicalGraph (GradoopFlinkConfig config){
-        DataSet<Vertex> vertices = clusterCollection.flatMap(new getClusterVertices());
-        DataSet<Tuple2<Vertex, String>> vertices_Ids = vertices.map(new vertex2vertex_gradoopId());
-        vertices = vertices_Ids.distinct(1).map(new getF0Tuple2());
-        DataSet<Edge> edges = clusterCollection.flatMap(new getClusterEdges());
-        DataSet<Tuple2<Edge, String>> edges_Ids = edges.map(new link2link_id());
-        edges = edges_Ids.distinct(1).map(new getF0Tuple2());
+        DataSet<Vertex> vertices = clusterCollection.flatMap(new GetClusterVertices());
+        DataSet<Tuple2<Vertex, String>> vertices_Ids = vertices.map(new Vertex2vertex_gradoopId());
+        vertices = vertices_Ids.distinct(1).map(new GetF0Tuple2());
+        DataSet<Edge> edges = clusterCollection.flatMap(new GetClusterEdges());
+        DataSet<Tuple2<Edge, String>> edges_Ids = edges.map(new Link2link_id());
+        edges = edges_Ids.distinct(1).map(new GetF0Tuple2());
         return config.getLogicalGraphFactory().fromDataSets(vertices, edges);
     }
 

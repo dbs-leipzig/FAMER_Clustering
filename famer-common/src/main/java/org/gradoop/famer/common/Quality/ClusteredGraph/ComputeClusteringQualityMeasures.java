@@ -1,3 +1,20 @@
+/*
+ * Copyright © 2016 - 2018 Leipzig University (Database Research Group)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
 package org.gradoop.famer.common.Quality.ClusteredGraph;
 
 import org.apache.flink.api.common.functions.*;
@@ -11,12 +28,10 @@ import org.apache.flink.util.Collector;
 import org.gradoop.common.model.impl.id.GradoopId;
 import org.gradoop.common.model.impl.pojo.Vertex;
 import org.gradoop.famer.common.Quality.ClusteredGraph.functions.*;
-import org.gradoop.famer.common.functions.getF1Tuple2;
-import org.gradoop.famer.common.functions.vertex2vertex_clusterId;
+import org.gradoop.famer.common.functions.GetF1Tuple2;
+import org.gradoop.famer.common.functions.Vertex2vertex_clusterId;
 import org.gradoop.flink.model.api.epgm.GraphCollection;
 import org.gradoop.flink.model.api.epgm.LogicalGraph;
-
-import java.io.Serializable;
 
 
 /** It is used when there is no Golden Truth file and only vertices with the same ids (GTIdLabel) are true positives
@@ -162,7 +177,7 @@ public class ComputeClusteringQualityMeasures {
         }
 
       //////All Positives
-        DataSet < Tuple1 < String >> ClusterIds = resultVertices.flatMap(new vertex2vertex_clusterId(true)).map(new getF1Tuple2()).map(new MapFunction<String, Tuple1<String>>() {
+        DataSet < Tuple1 < String >> ClusterIds = resultVertices.flatMap(new Vertex2vertex_clusterId(true)).map(new GetF1Tuple2()).map(new MapFunction<String, Tuple1<String>>() {
             @Override
             public Tuple1<String> map(String value) throws Exception {
                 return Tuple1.of(value);

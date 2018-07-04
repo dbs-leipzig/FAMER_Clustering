@@ -1,6 +1,21 @@
-package org.gradoop.famer.clustering.parallelClusteringGraph2Graph.util.CLIP;
+/*
+ * Copyright © 2016 - 2018 Leipzig University (Database Research Group)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
 
-import org.gradoop.famer.clustering.parallelClusteringGraph2Graph.util.CLIP.phase2.Phase2Method;
+package org.gradoop.famer.clustering.parallelClusteringGraph2Graph.util.CLIP;
 
 /**
  * CLIP Algorithm input parameters
@@ -8,7 +23,6 @@ import org.gradoop.famer.clustering.parallelClusteringGraph2Graph.util.CLIP.phas
 public class CLIPConfig {
     private Double delta;
     private Integer sourceNo;
-    private Phase2Method phase2Method;
     private boolean removeSrcConsistentVertices;
     private Double simValueCoef;
     private Double degreeCoef;
@@ -16,7 +30,6 @@ public class CLIPConfig {
 
     public CLIPConfig (){
         delta = 0d;
-        phase2Method = Phase2Method.SEQUENTIAL_GROUPREDUCE;
         removeSrcConsistentVertices = false;
         simValueCoef = 0.5;
         degreeCoef = 0.2;
@@ -43,9 +56,7 @@ public class CLIPConfig {
         this.removeSrcConsistentVertices = removeSrcConsistentVertices;
     }
 
-    public void setPhase2Method(Phase2Method phase2Method) {
-        this.phase2Method = phase2Method;
-    }
+    public void setPhase2Method() {}
 
     public void setSourceNo(Integer sourceNo) {
         this.sourceNo = sourceNo;
@@ -60,9 +71,6 @@ public class CLIPConfig {
         return sourceNo;
     }
 
-    public Phase2Method getPhase2Method() {
-        return phase2Method;
-    }
 
     public boolean isRemoveSrcConsistentVertices() {
         return removeSrcConsistentVertices;

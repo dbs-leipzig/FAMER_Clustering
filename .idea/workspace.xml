@@ -6,163 +6,136 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65f73f5-cce5-42f8-bb03-e72afb4aa1f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_data_artisans_flakka_actor_2_11_2_3_custom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_data_artisans_flakka_remote_2_11_2_3_custom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_data_artisans_flakka_slf4j_2_11_2_3_custom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_s1ck_gdl_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scopt_scopt_2_11_3_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_findbugs_findbugs_annotations_1_3_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_12_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_servlet_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_guice_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_bean_collections_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_daemon_commons_daemon_1_0_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_debatty_java_string_similarity_0_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_8_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_27_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__me_lemire_integercompression_JavaFastPFOR_0_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_abego_treelayout_org_abego_treelayout_core_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_gelly_2_10_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_gelly_2_11_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_compatibility_2_11_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hbase_2_11_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_hadoop2_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_test_utils_junit_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_annotations_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_client_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_tests_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop2_compat_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop_compat_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_prefix_tree_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_procedure_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_protocol_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_server_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_htrace_htrace_core_3_1_0_incubating.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_11_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_gradoop_famer_famer_common_0_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_gradoop_famer_famer_linking_0_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_gradoop_famer_famer_preprocessing_0_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_gradoop_gradoop_common_0_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_gradoop_gradoop_flink_0_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_gradoop_gradoop_flink_test_jar_tests_0_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jamon_jamon_runtime_2_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_2_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jcodings_jcodings_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_joni_joni_2_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_6_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_sslengine_6_1_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jsp_2_1_6_1_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jsp_api_2_1_6_1_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_uncommons_maths_uncommons_maths_1_2_2a.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_compiler_5_5_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_runtime_5_5_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FAMER_Clustering.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/famer-clusterPostProcessing.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/famer-common.iml" />
+    <list default="true" id="c65f73f5-cce5-42f8-bb03-e72afb4aa1f1" name="Default" comment="mvn clean install">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/license.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/Cluster2vertex_vertexId.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/FilterOutStrong.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/VertexVsClusterJoin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/func/AddFakeEdge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/func/Link2link_endId.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/Join.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/Join1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/Vertex2VertexInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Convert2Tuple1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/GetF0Tuple2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/GetF1Tuple2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Link2link_id.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Link2link_srcId_trgtId.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Vertex2vertex_clusterId.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Vertex2vertex_gradoopId.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Vertex_T2vertexId_vertex_T.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/Cluster2cluster_clusterId.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/GetClusterEdges.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/GradoopId2vertexJoin1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/GradoopId2vertexJoin2.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_gradoop_famer_famer_common_0_1_0_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/cluster2vertex_vertexId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/filterOutStrong.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/vertexVsClusterJoin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/Center.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/CorrelationClustering.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/MergeCenter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/Star.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/func/addFakeEdge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/func/link2link_endId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/Phase2Method.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/cluster2cluster_degree_edgeId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/cluster2cluster_degree_strongness_edgeId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/cluster2cluster_interLinkId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/cluster2interLink.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/edge2ClusterPair.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/edge2ClusterPair2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/find1stPriority.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/findMergingClusters.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/findTheBestEdge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/getPairs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/getPairs2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/getSeparatedComponents.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/makeClusterPairs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/mergeClusters.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/setClusterId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/setComponentId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/uniformClusterInterlinks.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/updateClusterInterLinks.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/join.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/join1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/vertex2VertexInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/resolveBulkIteration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ERClustering/CenterMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ERClustering/LongMaxAggregator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ERClustering/MaxN.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/convert2Tuple1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/getF0Tuple2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/getF1Tuple2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/link2link_id.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/link2link_srcId_trgtId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/removeF2Tuple3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/vertex2vertex_clusterId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/vertex2vertex_gradoopId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/vertex_T2vertexId_vertex_T.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/functions/findMax.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/cluster2cluster_clusterId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/getClusterEdges.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/addLabel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/enumerate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/gradoopId2vertexJoin1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/gradoopId2vertexJoin2.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/filterOverlappedVertices.java" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/FilterOverlappedVertices.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/formSingletons.java" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/FormSingletons.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/integrateVertices.java" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/IntegrateVertices.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/updateClusterLinks.java" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/UpdateClusterLinks.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/updateJoin.java" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/UpdateJoin.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/func/filterSrcConsistentClusterVertices.java" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/func/FilterSrcConsistentClusterVertices.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/edge2EdgeInfo.java" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/Edge2EdgeInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/join2.java" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/Join2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/reducer.java" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/Reducer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/seqResolveGrpRduc.java" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/SeqResolveGrpRduc.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/functions/findMax2.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/functions/FindMax2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/functions/link2link_endId_endType.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/functions/Link2link_endId_endType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/functions/makeEdgeWithSelectedStatus2.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/functions/MakeEdgeWithSelectedStatus2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/maxLinkSrcSelection.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/MaxLinkSrcSelection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/classifyLinks.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/ClassifyLinks.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/getClusterVertices.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/GetClusterVertices.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/links2Collections.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/Links2Collections.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/makeClusterJoin.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/MakeClusterJoin.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/vertices2Collections.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/Vertices2Collections.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/removeInterClustersLinks.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/RemoveInterClustersLinks.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/link2link_srcVertex_trgtVertex.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/Link2link_srcVertex_trgtVertex.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/minus.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/Minus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/famer-clusterPostProcessing.iml" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/famer-clusterPostProcessing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/pom.xml" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/OverlapResolve.java" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/OverlapResolve.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/ResolveIteration.java" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/ResolveIteration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/NoMergeResolver.java" afterPath="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/NoMergeResolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clustering/pom.xml" afterPath="$PROJECT_DIR$/famer-clustering/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/CLIP.java" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/CLIP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/ConnectedComponents.java" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/ConnectedComponents.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/CLIPConfig.java" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/CLIPConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/util/Minus.java" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/util/Minus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ClusteringOutputType.java" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ClusteringOutputType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/GenerateOutput.java" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/GenerateOutput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ModifyGraphforClustering.java" afterPath="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ModifyGraphforClustering.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/pom.xml" afterPath="$PROJECT_DIR$/famer-common/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/FilterOutLinks/functions/FilterOutSpecificLinks.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/FilterOutLinks/functions/FilterOutSpecificLinks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/ComputeClusteringQualityMeasures.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/ComputeClusteringQualityMeasures.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/ComputeCountbyReduce.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/ComputeCountbyReduce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/LongtoSet.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/LongtoSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/Tuple2toSet.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/Tuple2toSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/reduceLongtoSet.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/reduceLongtoSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/reduceTuple2toSet.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/reduceTuple2toSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/InputGraph/ComputeSimGraphQualityMeasures.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/InputGraph/ComputeSimGraphQualityMeasures.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/Cluster.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/Cluster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/ClusterCollection.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/ClusterCollection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/DenotateCluster.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/DenotateCluster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/RemoveInterClustersLinks.java" afterPath="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/RemoveInterClustersLinks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-example/pom.xml" afterPath="$PROJECT_DIR$/famer-example/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/ClusteringExample.java" afterPath="$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/ClusteringExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/RLIPExample.java" afterPath="$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/RLIPExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/SimilarityGraphQuality.java" afterPath="$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/SimilarityGraphQuality.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="FAMER.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -200,7 +173,18 @@
     <favorites_list name="FAMER" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Convert2Tuple1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Convert2Tuple1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -226,41 +210,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/edge2ClusterPair2.java" />
-        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/resolveBulkIteration.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolveStrengthNoMrg.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/filterOutStrong.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/filterOverlappedVertices.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/vertexVsClusterJoin.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/ResolveIteration.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/integrateVertices.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/formSingletons.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/updateClusterLinks.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/cluster2vertex_vertexId.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/updateJoin.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/NoMergeResolver.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/RLIP/RLIP.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/OverlapResolveStrengthNoMrg.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/RLIP.java" />
-        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/OverlapResolve.java" />
-        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/CLIPConfing.java" />
-        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/CLIPConfig.java" />
-        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/GT2Tuple2.java" />
-        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/InputGraph/ComputeSimGraphQualityMeasures.java" />
-        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/removeF0Tuple3.java" />
-        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/classifyLinks.java" />
-        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/ComputeCountbyReduce.java" />
-        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/LongtoSet.java" />
-        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/reduceLongtoSet.java" />
-        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/reduceTuple2toSet.java" />
         <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/Tuple2toSet.java" />
         <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/ClusteringOutputType.java" />
         <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/clustering.java" />
         <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ClusteringOutputType.java" />
-        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/CLIP.java" />
         <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/GenerateOutput.java" />
         <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/Star.java" />
-        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/ConnectedComponents.java" />
         <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/CorrelationClustering.java" />
         <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/MergeCenter.java" />
         <option value="$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/SimilarityGraphQuality.java" />
@@ -274,9 +229,38 @@
         <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/ComputeClusteringQualityMeasures.java" />
         <option value="$PROJECT_DIR$/famer-example/pom.xml" />
         <option value="$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/test2.java" />
-        <option value="$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/ClusteringExample.java" />
         <option value="$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/RLIPExample.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/llkl.java" />
+        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ModifyGraphforClustering.java" />
+        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/ConnectedComponents.java" />
+        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/func/AddFakeEdge.java" />
+        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_resolveBulkIteration/Cluster2cluster_degree_strongness_edgeId.java" />
+        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/Edge2EdgeInfo.java" />
+        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/seqResolveGrpRduc.java" />
+        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/CLIPConfig.java" />
+        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/CLIP.java" />
+        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/reducer.java" />
+        <option value="$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/SeqResolveGrpRduc.java" />
+        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/Cluster2vertex_vertexId.java" />
+        <option value="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/FilterOverlappedVertices.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/functions/FindMax.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/functions/FindMax2.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/MaxLinkSrcSelection.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/Cluster2cluster_clusterId.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/GetClusterEdges.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/GetClusterVertices.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/Links2Collections.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/MakeClusterJoin.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/Vertices2Collections.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/Link2link_srcVertex_trgtVertex.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/Minus.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/GradoopId2vertexJoin1.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/GradoopId2vertexJoin2.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/RemoveInterClustersLinks.java" />
+        <option value="$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/ClusteringExample.java" />
+        <option value="$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Convert2Tuple1.java" />
       </list>
     </option>
   </component>
@@ -325,6 +309,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -354,7 +339,85 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="famer-clustering" />
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FAMER_Clustering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FAMER_Clustering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famer-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FAMER_Clustering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FAMER_Clustering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famer-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FAMER_Clustering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FAMER_Clustering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="famer-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,26 +434,9 @@
               <option name="myItemId" value="famer-clustering" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parallelClusteringGraph2Graph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -399,14 +445,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="CLIPConfig&#9;FILE&#9;file:///home/alieh/Clustering4Github/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/CLIPConfig.java&#10;seqResolveGrpRduc&#9;FILE&#9;file:///home/alieh/Clustering4Github/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/seqResolveGrpRduc.java&#10;CorrelationClustering&#9;FILE&#9;file:///home/alieh/Clustering4Github/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/CorrelationClustering.java&#10;ConnectedComponents&#9;FILE&#9;file:///home/alieh/Clustering4Github/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/ConnectedComponents.java&#10;ClusteringOutputType&#9;FILE&#9;file:///home/alieh/Clustering4Github/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ClusteringOutputType.java&#10;gradoopId2vertexJoin2&#9;PSI&#9;JAVA://org.gradoop.famer.common.util.functions.gradoopId2vertexJoin2&#10;gradoopId2vertexJoin1&#9;PSI&#9;JAVA://org.gradoop.famer.common.util.functions.gradoopId2vertexJoin1&#10;link2link_srcVertex_trgtVertex&#9;PSI&#9;JAVA://org.gradoop.famer.common.util.link2link_srcVertex_trgtVertex&#10;RemoveInterClustersLinks&#9;PSI&#9;JAVA://org.gradoop.famer.common.util.RemoveInterClustersLinks&#10;MergeCenter&#9;FILE&#9;file:///home/alieh/FAMER/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClustering/MergeCenter.java&#10;Centerm&#9;FILE&#9;file:///home/alieh/FAMER/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CenterMessage.java&#10;Conn&#9;FILE&#9;file:///home/alieh/FAMER/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClustering/ConnectedComponents.java&#10;Center&#9;FILE&#9;file:///home/alieh/FAMER/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CenterMessage.java&#10;messageCompressor&#9;FILE&#9;file:///home/alieh/FAMER/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util_light/messageCompressor.java&#10;se&#9;FILE&#9;file:///home/alieh/Desktop/backup/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/selection/Selector.java&#10;Aggragator operator&#9;null&#9;null&#10;AggregationComponentType&#9;PSI&#9;JAVA://org.gradoop.famer.linking.selection.data_structures.SimilarityAggregatorRule.AggregationComponentType&#10;AggregatorComponent&#9;PSI&#9;JAVA://org.gradoop.famer.linking.selection.data_structures.SimilarityAggregatorRule.AggregatorComponent&#10;similarityAggregatorRule&#9;PSI&#9;JAVA://org.gradoop.famer.linking.selection.data_structures.SimilarityAggregatorRule.SimilarityAggregatorRule&#10;selectionComponent&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/selection/data_structures/SelectionComponent.java&#10;selection&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/selection/data_structures/SelectionRule/SelectionRule.java&#10;getgraphpa&#9;PSI&#9;JAVA://org.gradoop.famer.linking.blocking.BlockMaker#getGraphPairs&#10;CenterMessage&#9;FILE&#9;file:///home/alieh/FAMER/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CenterMessage.java&#10;ModifyGraphforClustering&#9;FILE&#9;file:///home/alieh/FAMER/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClustering/util/ModifyGraphforClustering.java&#10;property&#9;PSI&#9;JAVA://org.gradoop.famer.clusterPostProcessing.outputAnalyse.graphVisPreparation.functions.addVertexVis_Label#propertyList&#10;propertyV&#9;FILE&#9;jar:///home/alieh/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.jar!/org/codehaus/jackson/map/deser/PropertyValue.class&#10;Selection&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/selection/data_structures/SelectionRule/SelectionRule.java&#10;ConditionValue&#9;PSI&#9;JAVA://org.gradoop.famer.linking.selection.data_structures.Condition.ConditionValue&#10;ConditionValueList&#9;PSI&#9;JAVA://org.gradoop.famer.linking.selection.data_structures.Condition.ConditionValueList&#10;Se&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/selection/data_structures/SelectionRule/SelectionOperator.java&#10;SelectionComponentType&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/selection/data_structures/SelectionRule/SelectionComponentType.java&#10;RuleComponent&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/selection/data_structures/SelectionRule/RuleComponent.java&#10;S&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/selection/data_structures/SelectionRule/SelectionRule.java&#10;Sele&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/selection/data_structures/SelectionRule/SelectionRule.java&#10;SelectionComponent&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/selection/data_structures/SelectionComponent.java&#10;Selector&#9;PSI&#9;JAVA://org.gradoop.famer.linking.selection.Selector&#10;EPGMElement&#9;PSI&#9;JAVA://org.gradoop.common.model.api.entities.EPGMElement&#10;EPGMGraphElement&#9;FILE&#9;jar:///home/alieh/.m2/repository/org/gradoop/gradoop-common/0.3.0-SNAPSHOT/gradoop-common-0.3.0-20180217.093156-46.jar!/org/gradoop/common/model/api/entities/EPGMGraphElement.class&#10;EPGMVertex&#9;PSI&#9;JAVA://org.gradoop.common.model.api.entities.EPGMVertex&#10;org.gradoop.common.model.impl.pojo.Vertex&#9;PSI&#9;JAVA://org.gradoop.common.model.impl.pojo.Vertex&#10;EPGM&#9;FILE&#9;jar:///home/alieh/.m2/repository/org/gradoop/gradoop-common/0.3.0-SNAPSHOT/gradoop-common-0.3.0-20180217.093156-46.jar!/org/gradoop/common/model/api/entities/EPGMGraphElement.class&#10;getgraphIds&#9;PSI&#9;JAVA://org.gradoop.common.model.api.entities.EPGMGraphElement#getGraphIds&#10;getgraphid&#9;PSI&#9;JAVA://org.gradoop.flink.algorithms.fsm.transactional.tle.tuples.SubgraphEmbeddings#getGraphId&#10;SimilarityMeasurer&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/similarity_measuring/SimilarityMeasurer.java&#10;SimilarityField&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/selection/data_structure/SimilarityField.java&#10;similarityFieldList&#9;PSI&#9;JAVA://org.gradoop.famer.linking.similarity_measuring.data_structures.SimilarityFieldList&#10;link&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/linking/Linker.java&#10;stand&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/blocking/blocking_methods/standard_blocking/StandardBlocking.java&#10;create&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/blocking/blocking_methods/standard_blocking/func/CreatePairedVertices.java&#10;SimilarityComponent&#9;FILE&#9;file:///home/alieh/FAMER/famer-linking/src/main/java/org/gradoop/famer/linking/similarity_measuring/data_structures/SimilarityComponent.java" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.gradoop.famer.common.model.impl" />
-      <recent name="org.gradoop.famer.clusterPostProcessing" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/MultiEntity1SrcResolve/util/sequentialResolve/func_ME1SROptimized" />
+      <recent name="$PROJECT_DIR$/famer-linking/src/main/java/org/gradoop/famer/blocking/util" />
+      <recent name="$PROJECT_DIR$/famer-preprocessing/src/main/java/org/gradoop/famer" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/x" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.gradoop.famer.clusterPostProcessing.clusterRepair.MultiEntity1SrcResolve.util.sequentialResolve.ME1SROptimized" />
@@ -420,18 +469,15 @@
       <recent name="$PROJECT_DIR$/clusterPostProcessingModule/src/test/java/org/gradoop/famer/clusterPostProcessing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.gradoop.famer.clustering.parallelClusteringGraph2Graph" />
       <recent name="org.gradoop.famer.clusterPostProcessing.clusterRepair.OverlapResolve.func" />
       <recent name="org.gradoop.famer.clusterPostProcessing.clusterRepair.OverlapResolve" />
       <recent name="org.gradoop.famer.clustering.parallelClusteringGraph2Graph.util.CLIP.phase2.func_resolveBulkIteration" />
       <recent name="org.gradoop.famer.clustering.parallelClusteringGraph2Graph.util.CLIP.util" />
-      <recent name="org.gradoop.famer.clustering.parallelClusteringGraph2Graph.util.CLIP" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/MultiEntity1SrcResolve/util/sequentialResolve/func_ME1SROptimized" />
-      <recent name="$PROJECT_DIR$/famer-linking/src/main/java/org/gradoop/famer/blocking/util" />
-      <recent name="$PROJECT_DIR$/famer-preprocessing/src/main/java/org/gradoop/famer" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/x" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.gradoop.famer.common.model.impl" />
+      <recent name="org.gradoop.famer.clusterPostProcessing" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ClusteringExample">
@@ -1063,8 +1109,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.35" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="1100" y="25" width="590" height="1020" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1679" y="0" width="1682" height="1051" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1074,16 +1119,17 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39845476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329559" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39845476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671082" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1679" y="0" width="1682" height="1051" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32596686" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1153,7 +1199,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/ComputeClusteringQualityMeasures.java</url>
-          <line>104</line>
+          <line>119</line>
           <properties />
           <option name="timeStamp" value="201" />
         </line-breakpoint>
@@ -1167,309 +1213,309 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/getClusterVertices.java">
+    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/util/Minus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/links2Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/makeClusterJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/vertices2Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/ClusterCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/ComputeCountbyReduce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/LongtoSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/reduceLongtoSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/reduceTuple2toSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/functions/Tuple2toSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/InputGraph/ComputeSimGraphQualityMeasures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/addLabel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/enumerate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/gradoopId2vertexJoin1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/gradoopId2vertexJoin2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/removeInterClustersLinks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/uniqVertexPairs.java" />
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/EnumerateEntitiesOf2Sets.java" />
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/minus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/RemoveInterClustersLinks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/link2link_srcVertex_trgtVertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/tuple2Vertex2tuple3Vertex_ids.java" />
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/clustering.java" />
-    <entry file="file://$PROJECT_DIR$/inputGraphs/DS1-Geographical/threshold_0.75/vertices.json" />
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/struct/VertexExtension.java" />
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/functions/link2link_endId_endType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="101" selection-start-line="16" selection-start-column="101" selection-end-line="16" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/Cluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="358" column="56" selection-start-line="358" selection-start-column="56" selection-end-line="358" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/vertex2VertexInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/func/filterSrcConsistentClusterVertices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ClusteringOutputType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/Center.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/ConnectedComponents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="50" column="63" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/CorrelationClustering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="345">
           <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/MergeCenter.java">
+    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/func_seqResolveGrpRduc/Reducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="55" column="63" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="63" />
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/Star.java">
+    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/SeqResolveGrpRduc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="55" column="63" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ModifyGraphforClustering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/resolveBulkIteration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/Phase2Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/GenerateOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/phase2/seqResolveGrpRduc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/CLIP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="431">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/CLIP/CLIPConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="173">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/SimilarityGraphQuality.java">
+    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/GenerateOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/test2.java" />
-    <entry file="file://$PROJECT_DIR$/famer-example/pom.xml">
+    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ModifyGraphforClustering.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/test.java" />
+    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/CLIP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/ConnectedComponents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/Cluster2vertex_vertexId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/FilterOverlappedVertices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/func/NoMergeResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/OverlapResolve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-clusterPostProcessing/src/main/java/org/gradoop/famer/clusterPostProcessing/clusterRepair/OverlapResolve/ResolveIteration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/GetF0Tuple2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/GetF1Tuple2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Link2link_id.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Link2link_srcId_trgtId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/RemoveF2Tuple3.java" />
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Vertex2vertex_clusterId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Vertex2vertex_gradoopId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Vertex_T2vertexId_vertex_T.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/MaxLinkSrcSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/functions/FindMax2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/maxDeltaLinkSelection/functions/FindMax.java" />
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/ClassifyLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/Cluster2cluster_clusterId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/DenotateCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/GetClusterEdges.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/GetClusterVertices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/Links2Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/MakeClusterJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/functions/Vertices2Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/Cluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/model/impl/ClusterCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/ClusteredGraph/ComputeClusteringQualityMeasures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="94" column="13" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/ClusteringExample.java">
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/Quality/InputGraph/ComputeSimGraphQualityMeasures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="75" column="136" selection-start-line="75" selection-start-column="136" selection-end-line="75" selection-end-column="136" />
+        <state relative-caret-position="420">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/Link2link_srcVertex_trgtVertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/Minus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/addLabel.java" />
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/enumerate.java" />
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/GradoopId2vertexJoin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/GradoopId2vertexJoin2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/util/functions/RemoveInterClustersLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/RLIPExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="120">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/SimilarityGraphQuality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-clustering/src/main/java/org/gradoop/famer/clustering/parallelClusteringGraph2Graph/util/ClusteringOutputType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-example/src/main/java/org/gradoop/famer/example/ClusteringExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1477,6 +1523,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-clustering/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-clusterPostProcessing/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/famer-common/src/main/java/org/gradoop/famer/common/functions/Convert2Tuple1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1497,6 +1565,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>license</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

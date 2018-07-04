@@ -1,3 +1,20 @@
+/*
+ * Copyright © 2016 - 2018 Leipzig University (Database Research Group)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
 package org.gradoop.famer.example;
 
 import org.apache.flink.api.java.ExecutionEnvironment;
@@ -19,12 +36,12 @@ import java.util.Date;
 public class ClusteringExample {
 
 	public enum ClusteringMethods {
-		CONCON, CORRELATION_CLUSTERING, CENTER, MERGE_CENTER, STAR1, STAR2, CLIP
+		CONCON, CLIP
 	};
 
 	public static void main(String args[]) throws Exception {
 		// Clustering method can be chosen from the above list
-		ClusteringMethods method = ClusteringMethods.CORRELATION_CLUSTERING;
+		ClusteringMethods method = ClusteringMethods.CLIP;
 		// input graphs for different datasets are stored in "inputGraphs" folder of the project
 		String inputGraphPath = args[0];
 		String outputGraphPath = args[1];
@@ -57,21 +74,7 @@ public class ClusteringExample {
 		case CONCON:// concom
 			resultGraph = test.callForGraph(new ConnectedComponents());
 			break;
-		case CORRELATION_CLUSTERING: // CC
-			resultGraph = test.callForGraph(new CorrelationClustering(isEdgeBirection, clusteringOutputType));
-			break;
-		case CENTER: // Center
-			resultGraph = test.callForGraph(new Center(1, isEdgeBirection, clusteringOutputType));
-			break;
-		case MERGE_CENTER: // MC
-			resultGraph = test.callForGraph(new MergeCenter(1, 0.0, isEdgeBirection, clusteringOutputType));
-			break;
-		case STAR1: // Star1
-			resultGraph = test.callForGraph(new Star(1, 1, isEdgeBirection, clusteringOutputType));
-			break;
-		case STAR2: // Star2
-			resultGraph = test.callForGraph(new Star(1, 2, isEdgeBirection, clusteringOutputType));
-			break;
+
 		case CLIP: // CLIP
 			// the constructor of CLIPConfig sets the config parameters to some default values. They can be changed using setter methods
 			CLIPConfig clipConfig = new CLIPConfig();
@@ -94,8 +97,7 @@ public class ClusteringExample {
 		 * Compute Output Precision, Recall, FMeasure
 		 ********************************/
 		Boolean hasOverlap = false;
-		if (method.equals(ClusteringMethods.STAR1) || method.equals(ClusteringMethods.STAR1))
-			hasOverlap = true;
+
 		FileWriter fw = new FileWriter(outFolder+"quality.csv",true);
 		fw.append("Pre,Rec,FM\n");
 		ComputeClusteringQualityMeasures eval = new ComputeClusteringQualityMeasures(resultGraph, "recId",  hasOverlap);
