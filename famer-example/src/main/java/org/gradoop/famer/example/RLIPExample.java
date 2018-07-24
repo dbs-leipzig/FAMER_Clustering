@@ -85,5 +85,6 @@ public class RLIPExample {
         fw.append("Pre,Rec,FM\n");
         ComputeClusteringQualityMeasures eval = new ComputeClusteringQualityMeasures(resultGraph, "recId",  false);
         fw.append(eval.computePrecision()+","+eval.computeRecall()+","+eval.computeFM()+"\n");
+        fw.flush();
     }
 }
