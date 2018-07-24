@@ -1,12 +1,11 @@
 # FAMER_Clustering
-<a href="https://dbs.uni-leipzig.de/research/projects/object_matching/famer">FAMER</a> is a research project designed for FAst Multi-source Entity Resolution. It is implemented on top of Apache Flink and the graph analytics tool Gradoop (link). 
-The framework is still highly under development. So the whole code of FAMER is not publicly available yet. This repository provides the new clustering algorithm CLIP as well as the repair algorithm RLIP that we presented in ESWC 2018 paper. 
+<a href="https://dbs.uni-leipzig.de/research/projects/object_matching/famer">FAMER</a> is a research project designed for <b>FAst Multi-source Entity Resolution</b>. It is implemented on top of <a href="https://flink.apache.org/">Apache Flink</a> and the graph analytics tool <a href="https://dbs.uni-leipzig.de/research/projects/gradoop">Gradoop</a>. 
+The framework is still highly under development. So the whole code of FAMER is not publicly available yet. This repository provides the new clustering algorithm <b>CLIP</b> as well as the cluster repair algorithm <b>RLIP</b> that we presented in <a href="https://dbs.uni-leipzig.de/file/eswc_0.pdf">this</a> paper at Extended European Semantic Web Conference in June (<a href="https://2018.eswc-conferences.org/">ESWC 2018</a>). 
 
 In this repository you can find the following modules of FAMER:
 
-famer-clustering: it contains CLIP and the baseline method Connected Components.
-famer-clusterPostProcessing: it contains the implementation of overlapResolve algorithm. Even though this case is meaningless in the context of entity resolution, some ER clustering algorithms result into overlapped clusters. 
-The overlapResolve algorithm resolves entities that are shared between several clusters and assigns them to only one cluster. 
-famer-common: contains some APIs that are used in other modules.
-famer-example: it contains the example scripts for both CLIP and RLIP algorithms as well as computing the input graphs and clustering output in terms of FMeasure.
-inputGraphs: in this folder you can find all generated input graphs by FAMER that we reported in our papers 1 and 2 for all three datasets we listed. The raw data of all datasets are available in FAMER homepage.
+<b>famer-clustering</b>: it contains the implementation of CLIP and the baseline method Connected Components.
+<b>famer-clusterPostProcessing</b>: it contains the implementation of <i>overlapResolve</i> algorithm. Even though overlapped entities shared between multiple clusters is meaningless in the context of entity resolution, some ER clustering algorithms result into overlapped clusters. The <i>overlapResolve</i> algorithm resolves entities that are shared between several clusters and assigns them to only one cluster. 
+<b>famer-common</b>: it contains some APIs that are used in other modules.
+<b>famer-example</b>: it contains the example scripts for both CLIP and RLIP algorithms as well as computing the quality of input graphs and clustering output in terms of FMeasure.
+<b>inputGraphs</b>: in this folder you can find all generated input graphs by FAMER that we reported in our this papers (<a href="https://dbs.uni-leipzig.de/file/famer-adbis2017.pdf">[1]</a> and <a href="https://dbs.uni-leipzig.de/file/eswc_0.pdf">[2]</a>) for all three datasets we listed and made publicly available in <a href="https://dbs.uni-leipzig.de/research/projects/object_matching/famer">FAMER homepage</a>.
