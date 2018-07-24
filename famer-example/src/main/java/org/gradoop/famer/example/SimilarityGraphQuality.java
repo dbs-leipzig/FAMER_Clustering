@@ -52,5 +52,6 @@ public class SimilarityGraphQuality {
         fw.append("Pre,Rec,FM\n");
         ComputeSimGraphQualityMeasures eval = new ComputeSimGraphQualityMeasures(input, "recId");
         fw.append(eval.computePrecision()+","+eval.computeRecall()+","+eval.computeFM()+"\n");
+        fw.flush();
     }
 }
